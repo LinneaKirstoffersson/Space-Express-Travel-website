@@ -1,0 +1,14 @@
+body{
+    font-family: Copperplate, cambay devanagari;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#nav_search{
+    background-color: #111d28;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
