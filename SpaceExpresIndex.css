@@ -1,14 +1,57 @@
+
 body{
-    font-family: Copperplate, cambay devanagari;
+    font-family: "Noto Sans", sans-serif, "copperplate";
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+.noto-sans-regular {
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings:
+    "width" 100;
+}
+
 #nav_search{
     background-color: #111d28;
-    height: 80px;
+    height: 100px;
     width: 100%;
     display: flex;
-    align-items: center;
+    font-family: "Noto Sans", sans-serif;
+}
+.navBar{
+    text-align: right;
+    padding-left: 40%;
+    font-size: 16px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+ul li {
+    float: left;
+}
+
+ul li a {
+    display: block;
+    color: white;
+    text-align: right;
+    padding: 18px 24px;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    color: #e8b26e;
+    cursor:pointer;
+}
+
+.loggo{
+padding: 10px 20px;
 }
